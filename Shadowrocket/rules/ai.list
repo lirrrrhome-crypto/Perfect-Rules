@@ -1,15 +1,22 @@
-# > ChatGPT
+# > ChatGPT / OpenAI
 DOMAIN-SUFFIX,chat.com
 DOMAIN-SUFFIX,chatgpt.com
-DOMAIN-SUFFIX,livekit.cloud
+DOMAIN-SUFFIX,chatgpt.livekit.cloud
+DOMAIN-SUFFIX,host.livekit.cloud
+DOMAIN-SUFFIX,turn.livekit.cloud
 DOMAIN-SUFFIX,oaistatic.com
 DOMAIN-SUFFIX,oaiusercontent.com
 DOMAIN-SUFFIX,openai.com
+DOMAIN-SUFFIX,openaiapi-site.azureedge.net
+DOMAIN-SUFFIX,openaicom.imgix.net
 DOMAIN-SUFFIX,sora.com
 DOMAIN,api.statsig.com
 DOMAIN,api-iam.intercom.io
+DOMAIN,chat.openai.com.cdn.cloudflare.net
 DOMAIN,o33249.ingest.sentry.io
-DOMAIN,openaiapi-site.azureedge.net
+DOMAIN,openai-api.arkoselabs.com
+DOMAIN,openaicomproductionae4b.blob.core.windows.net
+DOMAIN,production-openaicom-storage.azureedge.net
 DOMAIN-KEYWORD,openaiapi
 DOMAIN-KEYWORD,openaicom
 
@@ -25,14 +32,20 @@ DOMAIN,cp4.cloudflare.com
 DOMAIN,gspe1-ssl.ls.apple.com
 DOMAIN,guzzoni.apple.com
 
-# > Claude
-DOMAIN-SUFFIX,claude.ai
+# > Claude / Anthropic
 DOMAIN-SUFFIX,anthropic.com
+DOMAIN-SUFFIX,claude.ai
+DOMAIN-SUFFIX,claudeusercontent.com
+DOMAIN,servd-anthropic-website.b-cdn.net
 
 # > Microsoft Copilot
 DOMAIN,copilot.microsoft.com
 DOMAIN,sydney.bing.com
 DOMAIN,www.bing.com
+DOMAIN,edgeservices.bing.com
+DOMAIN,gateway.bingviz.microsoft.net
+DOMAIN,r.bing.com
+DOMAIN,services.bingapis.com
 # > GitHub Copilot
 DOMAIN-SUFFIX,githubcopilot.com
 
@@ -61,14 +74,140 @@ DOMAIN-KEYWORD,notebooklm.google
 # > > Search Labs
 DOMAIN-KEYWORD,labs.google
 
-# > Grok
+# > Grok / xAI
 DOMAIN-SUFFIX,grok.com
 DOMAIN-SUFFIX,x.ai
+DOMAIN,grok.x.com
 
-# > OpenRouter
+# > OpenRouter / LiteLLM
 DOMAIN-SUFFIX,openrouter.ai
+DOMAIN-SUFFIX,litellm.ai
 
 # > Perplexity
 DOMAIN-SUFFIX,perplexity.ai
 DOMAIN-SUFFIX,pplx.ai
 DOMAIN,pplx-res.cloudinary.com
+DOMAIN,ppl-ai-file-upload.s3.amazonaws.com
+
+# > Cursor
+DOMAIN-SUFFIX,cursor.com
+DOMAIN-SUFFIX,cursor.sh
+DOMAIN-SUFFIX,cursorapi.com
+DOMAIN-SUFFIX,cursor-cdn.com
+DOMAIN-SUFFIX,cursorvm.com
+
+# > Windsurf / Codeium
+DOMAIN-SUFFIX,codeium.com
+DOMAIN-SUFFIX,codeiumdata.com
+DOMAIN-SUFFIX,windsurf.com
+DOMAIN-SUFFIX,windsurf.ai
+DOMAIN-SUFFIX,windsurf.build
+DOMAIN-SUFFIX,windsurf-telemetry.codeium.com
+
+# > Continue / Sourcegraph Cody
+DOMAIN-SUFFIX,continue.dev
+DOMAIN-SUFFIX,sourcegraph.com
+
+# > Midjourney
+DOMAIN-SUFFIX,midjourney.com
+
+# > Stability AI
+DOMAIN-SUFFIX,stability.ai
+DOMAIN-SUFFIX,dreamstudio.ai
+
+# > Hugging Face
+DOMAIN-SUFFIX,huggingface.co
+DOMAIN-SUFFIX,hf.co
+
+# > Cohere
+DOMAIN-SUFFIX,cohere.ai
+DOMAIN-SUFFIX,cohere.com
+
+# > Mistral
+DOMAIN-SUFFIX,mistral.ai
+
+# > Fireworks / Together / Groq / Replicate / Fal
+DOMAIN-SUFFIX,fireworks.ai
+DOMAIN-SUFFIX,together.ai
+DOMAIN-SUFFIX,together.xyz
+DOMAIN-SUFFIX,groq.com
+DOMAIN-SUFFIX,replicate.com
+DOMAIN-SUFFIX,replicate.delivery
+DOMAIN-SUFFIX,fal.ai
+
+# > Poe
+DOMAIN-SUFFIX,poe.com
+DOMAIN-SUFFIX,qpoe.com
+
+# > Character.AI / Pi (Inflection)
+DOMAIN-SUFFIX,character.ai
+DOMAIN-SUFFIX,inflection.ai
+DOMAIN-SUFFIX,pi.ai
+
+# > Meta AI
+DOMAIN-SUFFIX,meta.ai
+DOMAIN-SUFFIX,metaaiusercontent.com
+
+# > Amazon Bedrock / Amazon Q (public AI endpoints)
+DOMAIN,codewhisperer.us-east-1.amazonaws.com
+DOMAIN,desktop-release.codewhisperer.us-east-1.amazonaws.com
+DOMAIN,q.us-east-1.amazonaws.com
+DOMAIN,specs.q.us-east-1.amazonaws.com
+DOMAIN-KEYWORD,bedrock-runtime
+DOMAIN-KEYWORD,bedrock
+
+# > Generative media: Runway / Pika / Luma / Ideogram / Leonardo / BFL
+DOMAIN-SUFFIX,runwayml.com
+DOMAIN-SUFFIX,runway.com
+DOMAIN-SUFFIX,pika.art
+DOMAIN-SUFFIX,luma.ai
+DOMAIN-SUFFIX,lumalabs.ai
+DOMAIN-SUFFIX,ideogram.ai
+DOMAIN-SUFFIX,leonardo.ai
+DOMAIN-SUFFIX,bfl.ai
+DOMAIN-SUFFIX,blackforestlabs.ai
+
+# > Kling international / Dreamina (ByteDance overseas; NOT jimeng CN / klingai.com CN)
+DOMAIN-SUFFIX,kling.ai
+DOMAIN,dreamina.capcut.com
+
+# > Voice / music: ElevenLabs / Suno / Udio
+DOMAIN-SUFFIX,elevenlabs.io
+DOMAIN-SUFFIX,elevenlabs.com
+DOMAIN-SUFFIX,suno.ai
+DOMAIN-SUFFIX,suno.com
+DOMAIN-SUFFIX,udio.com
+
+# > DeepSeek international
+DOMAIN-SUFFIX,deepseek.com
+
+# > Moonshot international API (kimi.ai overseas brand; NOT kimi.cn)
+DOMAIN-SUFFIX,moonshot.ai
+DOMAIN-SUFFIX,kimi.ai
+
+# > Other common AI coding / agent / search apps
+DOMAIN-SUFFIX,phind.com
+DOMAIN-SUFFIX,you.com
+DOMAIN-SUFFIX,replit.com
+DOMAIN-SUFFIX,v0.dev
+DOMAIN-SUFFIX,lovable.dev
+DOMAIN-SUFFIX,bolt.new
+DOMAIN-SUFFIX,devin.ai
+DOMAIN-SUFFIX,cognition.ai
+DOMAIN-SUFFIX,tabnine.com
+DOMAIN-SUFFIX,supermaven.com
+DOMAIN-SUFFIX,augmentcode.com
+DOMAIN-SUFFIX,augment.dev
+DOMAIN-SUFFIX,warp.dev
+DOMAIN-SUFFIX,heygen.com
+DOMAIN-SUFFIX,heygen.ai
+DOMAIN-SUFFIX,synthesia.io
+DOMAIN-SUFFIX,deepgram.com
+DOMAIN-SUFFIX,assemblyai.com
+DOMAIN-SUFFIX,cartesia.ai
+DOMAIN-SUFFIX,cerebras.ai
+DOMAIN-SUFFIX,deepinfra.com
+DOMAIN-SUFFIX,ai21.com
+DOMAIN-SUFFIX,ai21labs.com
+DOMAIN-SUFFIX,reka.ai
+DOMAIN-SUFFIX,sambanova.ai
